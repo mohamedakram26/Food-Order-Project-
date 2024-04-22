@@ -1,0 +1,43 @@
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #000000;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+.main > .selected {
+    background: #ffff01;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;    
+    color:black;
+}
+
+.hover1:hover{
+    background: #ffa201;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    color:black;
+}
+
+.user-name-item {
+    display: flex;
+    align-items: center;
+}
+
+.main div
+{
+    cursor: pointer;
+}
+
+.main img {
+    height: 2.5em;
+    width: 300px;
+}
